@@ -13,7 +13,7 @@ class Artist
 
 
   def add_song(song)
-self.songs << song
+@songs << song
   end
 
   def save
@@ -45,7 +45,7 @@ self.songs << song
   def print_the_songs
     self.songs.each {|song| song.name}
   end
-
+  
 
 
 
