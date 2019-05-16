@@ -46,7 +46,7 @@ self.songs << song
     self.songs.each {|song| song.name}
   end
 end
-    
+
 
 
   #
